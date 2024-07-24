@@ -8,8 +8,6 @@ import pyautogui
 import datetime
 import configparser
 
-# test
-
 def fastmd5(file_path,split_piece=256,get_front_bytes=8):
     """
     快速计算一个用于区分文件的md5（非全文件计算，是将文件分成s段后，取每段前d字节，合并后计算md5，以加快计算速度）
